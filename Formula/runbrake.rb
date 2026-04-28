@@ -29,6 +29,6 @@ class Runbrake < Formula
   end
 
   test do
-    assert_match "runbrake doctor", shell_output("#{bin}/runbrake 2>&1", 2)
+    assert_match "runbrake doctor", shell_output("#{bin}/runbrake 2>&1")
   end
 end
