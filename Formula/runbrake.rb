@@ -1,26 +1,26 @@
 class Runbrake < Formula
   desc "Local-first scanner and OpenClaw policy adapter for risky agent skills"
   homepage "https://github.com/runbrake/runbrake-oss"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/runbrake/runbrake-oss/releases/download/v0.1.0/runbrake_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "7ec50bac27b78d803868524583a9c9021a29e527daa5ace4597af98024af0fea"
+      url "https://github.com/runbrake/runbrake-oss/releases/download/v0.1.1/runbrake_v0.1.1_darwin_arm64.tar.gz"
+      sha256 "cec5cbb85fb9c9941761e163249c09faf729fb2c02cee0256e95a23e46a3006b"
     else
-      url "https://github.com/runbrake/runbrake-oss/releases/download/v0.1.0/runbrake_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "3655d6c6a5244de19a32ec53d5f521c44bb4aab118c7fbad252bd565e4de36e9"
+      url "https://github.com/runbrake/runbrake-oss/releases/download/v0.1.1/runbrake_v0.1.1_darwin_amd64.tar.gz"
+      sha256 "731781dda7553bc5b3006a7fc27361c888447a806e5350cae24bf6bcd08c963b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/runbrake/runbrake-oss/releases/download/v0.1.0/runbrake_v0.1.0_linux_arm64.tar.gz"
-      sha256 "f194411090a682fccb9f41fbcab89745ca89964e58836f4c8d49cc03e9b63a3a"
+      url "https://github.com/runbrake/runbrake-oss/releases/download/v0.1.1/runbrake_v0.1.1_linux_arm64.tar.gz"
+      sha256 "a45bf65e55a784b145b1d71d7eae467db1f697ddaec1215d8c0d3243d67365e1"
     else
-      url "https://github.com/runbrake/runbrake-oss/releases/download/v0.1.0/runbrake_v0.1.0_linux_amd64.tar.gz"
-      sha256 "8e0f4f8141c93536f4c46cf31e2664745574eb798bd5b0b92e51e79d55605fe0"
+      url "https://github.com/runbrake/runbrake-oss/releases/download/v0.1.1/runbrake_v0.1.1_linux_amd64.tar.gz"
+      sha256 "f63dc89fc996d9ae31064d80ee71adb0a5fa90623881f5eccd82fdbc7ad48cd9"
     end
   end
 
