@@ -13,4 +13,4 @@ Or install in one command:
 brew install runbrake/tap/runbrake
 ```
 
-RunBrake OSS is the local-first scanner and OpenClaw policy-plugin adapter for reviewing OpenClaw installs, skills, plugins, and public registry snapshots before they run.
+RunBrake OSS is the local-first scanner, sidecar, and OpenClaw/Hermes policy-adapter toolkit for reviewing risky agent skills, plugins, and public registry snapshots before they run.
